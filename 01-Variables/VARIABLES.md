@@ -72,7 +72,7 @@ Let's look at an example:
    console.log(myOtherFunction()); //{4}
    console.log(myOtherVariable); //{5}
 
-```
+``
 
 The above code can be explained as follows:
 - Line {1} will output global because we are referring to a global variable. - Line {2} will output local because we declared the myVariable variable inside the myFunction function as a local variable, so the scope will only be inside myFunction.
