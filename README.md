@@ -1,6 +1,6 @@
 # JavaScript Documentation
 
-| # Page |                                                                       Topics                                                                        |
+| Page |                                                                       Topics                                                                        |
 | ----- | :-------------------------------------------------------------------------------------------------------------------------------------------------: |
 | 01    |                                                             [Introduction](./README.md)                                                             |
 | 02    |                                               [Variables](./01-variables/VARIABLES.md)                                                |
@@ -67,3 +67,6 @@ Then, our HTML file will look similar to this:
 ```
 
 The second example demonstrates how to include a JavaScript file inside an HTML file.
+
+
+Next page: [ Variables>> ](./01-variables/VARIABLES.md)
