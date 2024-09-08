@@ -1,5 +1,5 @@
 # JavaScript Documentation
-Back to home: 
+Back to home: [Index <<](../README.md)
 
 ## Variables
 
