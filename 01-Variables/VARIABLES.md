@@ -40,12 +40,7 @@ The console.log method also accepts more than just arguments. Instead of console
 ## Const Variable
 
 
-
-
-
-
-
-
+Test
 
 
 

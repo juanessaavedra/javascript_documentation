@@ -69,4 +69,4 @@ Then, our HTML file will look similar to this:
 The second example demonstrates how to include a JavaScript file inside an HTML file.
 
 
-Next page: [ Variables>> ](./01-variables/VARIABLES.md)
+Next page: [ Variables>> ](./01-Variables/VARIABLES.md)
