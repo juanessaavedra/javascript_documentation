@@ -1,5 +1,7 @@
 # JavaScript Documentation
 
+This is a comprehensive collection of books, courses and repositories designed to provide an essential resource for learning JavaScript.  I hope it will be of great help to you!
+
 | Page |                                                                       Topics                                                                        |
 | ----- | :-------------------------------------------------------------------------------------------------------------------------------------------------: |
 | 01    |                                                             [Introduction](./README.md)                                                             |
@@ -69,4 +71,4 @@ Then, our HTML file will look similar to this:
 The second example demonstrates how to include a JavaScript file inside an HTML file.
 
 
-Next page: [ Variables>> ](./01-Variables/VARIABLES.md)
+Next page: [ Variables >> ](./01-Variables/VARIABLES.md)

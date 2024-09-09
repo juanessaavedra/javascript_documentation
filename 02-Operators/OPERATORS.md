@@ -1,7 +1,7 @@
 # JavaScript Documentation
 Back to home: [<< Index ](../README.md)
 
-## Variables
+## Operators
 
 Variables store data that can be set, updated, and retrieved whenever necessary. Values that are assigned to a variable belong to a type. In JavaScript, the available types are number, string, boolean, function, and object. We also have undefined and null, along with arrays, dates, and regular expressions.
 Although JavaScript has different available variable types, it is not a strongly typed language such as C/C++, C#, and Java. In strongly typed languages, we need to declare the type of the variable along with its declaration (for example, inJava,todeclareanintegervariable,weuseint num = 1;).InJavaScript,weonly need to use the keyword var, and we do not need to declare the variable type. For this reason, JavaScript is not a strongly typed language. However, there are discussions and a specification in draft mode for optional static typing (https://gi thub.com/dslomov/typed-objects-es7) that can become part of the JavaScript specification (ECMAScript) in the future. We can also use TypeScript in case we want to type our variables when working with JavaScript. We will learn more about ECMAScript and TypeScript later in this chapter.
@@ -38,18 +38,11 @@ The console.log method also accepts more than just arguments. Instead of console
 
 
 ## Const Variable
-It's a variable that can't be changed
 
-```js
-   const PI = 3.14159;
-let radius;
-let circumference;
 
-radius = Number(window.prompt("Enter the radius of a circle"));
-circumference = 2*pi*circumference;
-console.log(circumference)
+Test
 
-```
+
 
 
 ## Scope Variable:
@@ -59,7 +52,7 @@ Let's look at an example:
 
 ```js
    var myVariable = 'global';
-   var myOtherVariable = 'global';
+   myOtherVariable = 'global';
    function myFunction() {
      var myVariable = 'local';
      return myVariable;
@@ -85,9 +78,3 @@ The above code can be explained as follows:
 
 You may hear that global variables in JavaScript are evil, and this is true.
 Usually, the quality of JavaScript source code is measured by the number of global variables and functions (a large number is bad). So, whenever possible, try avoiding global variables.
-
-
-[Data Types](./Data%20Types/DATA-TYPES.md)
-
-
-
