@@ -87,6 +87,7 @@ You may hear that global variables in JavaScript are evil, and this is true.
 Usually, the quality of JavaScript source code is measured by the number of global variables and functions (a large number is bad). So, whenever possible, try avoiding global variables.
 
 
+## Data Types
 [Data Types](./Data%20Types/DATA-TYPES.md)
 
 

@@ -1,5 +1,6 @@
 # JavaScript Documentation
 Back to home: [<< Index ](../README.md)
+
 Back to variables: [<< Variables](../VARIABLES.md)
 
 
