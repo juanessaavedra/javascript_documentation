@@ -1,7 +1,7 @@
 # JavaScript Documentation
 Back to home: [<< Index ](../../README.md)
 
-Back to variables: [<< Variables](../VARIABLES.md)
+Back to variables: [<< Operators](../../02-Operators/OPERATORS.md)
 
 
 ## Data Types
@@ -857,21 +857,3 @@ console.log(numInt) // 9
 
 
 
-## Type conversion:
-
-```js
-let x = "Hambuburger";
-let y = "Hambuburger";
-let z = "Hambuburger";
-
-x = Number(x);
-y = String(y);
-z = Boolean(z);
-
-console.log(x, typeof x);
-
-console.log(y, typeof y);
-
-console.log(z, typeof z);
-
-```

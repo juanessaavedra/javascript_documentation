@@ -2,11 +2,13 @@
 
 This is a comprehensive collection of books, courses and repositories designed to provide an essential resource for learning JavaScript.  I hope it will be of great help to you!
 
-| Page |                                                                       Topics                                                                        |
-| ----- | :-------------------------------------------------------------------------------------------------------------------------------------------------: |
-| 01    |                                                             [Introduction](./README.md)                                                             |
-| 02    |                                               [Variables](./01-Variables/VARIABLES.md)                                                |
 
+
+| Page | Topics  |
+|---------------------|--------------|
+| 01                   | [Introduction](./README.md)    |
+| 02                   | [Variables](./01-Variables/VARIABLES.md)  |
+| 03                   | [Operators](./02-Operators/OPERATORS.md)  |
 
 
 
