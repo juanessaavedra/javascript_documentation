@@ -147,7 +147,5 @@ var myObj = {name: 'John', age: 21};
 ```
 
 More details here:
-
- ## Data Types
 [Data Types](./Data%20Types/DATA-TYPES.md)
 
