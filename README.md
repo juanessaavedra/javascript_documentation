@@ -9,6 +9,8 @@ This is a comprehensive collection of books, courses and repositories designed t
 | 01                   | [Introduction](./README.md)    |
 | 02                   | [Variables](./01-Variables/VARIABLES.md)  |
 | 03                   | [Operators](./02-Operators/OPERATORS.md)  |
+| 04                   | [Control structures](./03-Control_structures/CONTROL_STRUCTURES.md)  |
+| 05                   | [Functions](./04-Functions/FUNCTIONS.md)  |
 
 
 
