@@ -11,6 +11,7 @@ This is a comprehensive collection of books, courses and repositories designed t
 | 03                   | [Operators](./02-Operators/OPERATORS.md)  |
 | 04                   | [Control structures](./03-Control_structures/CONTROL_STRUCTURES.md)  |
 | 05                   | [Functions](./04-Functions/FUNCTIONS.md)  |
+| 06                   | [Methods](./05-Methods/METHODS.md)  |
 
 
 
