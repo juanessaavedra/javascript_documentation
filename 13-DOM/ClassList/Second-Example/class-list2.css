@@ -1,0 +1,20 @@
+
+.myButtons {
+    font-size: 4rem;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    background-color: rgb(79, 164, 255);
+    color: white;
+}
+
+.enabled {
+    background-color: #4d4d9c;
+    color: white;
+}
+
+.hover {
+    box-shadow: 0 0 10px grey;
+    font-weight: bold;
+}
