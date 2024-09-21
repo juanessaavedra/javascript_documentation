@@ -206,3 +206,25 @@ If we consider that our array has the value -4 to 12 and a length of 17 after we
 ### Adding and removing elements from a specific position
 
 
+So far, we have learned how to add elements at the end and at the beginning of an array, and we have also learned how to remove elements from the beginning and end of an array. What if we also want to add or remove elements from any position in our array? How can we do this?
+We can use the splice method to remove an element from an array by simply specifying the position/index that we would like to delete from and how many elements we would like to remove, as follows:
+
+  ```js numbers.splice(5,3);```
+
+This code will remove three elements, starting from index 5 of our array. This means numbers[5], numbers[6], and numbers[7] will be removed from the numbers array. The content of our array will be -3,-2,-1,0,1,5,6,7,8,9,10,11,and12 (asthe numbers 2, 3, and 4 have been removed).
+
+
+Now, let's say we want to insert numbers 2 to 4 back into the array, starting from position 5. We can again use the splice method to do this:
+
+```js numbers.splice(5, 0, 2, 3, 4);```
+
+The first argument of the method is the index we want to remove elements from or insert elements into. The second argument is the number of elements we want to remove (in this case, we do not want to remove any, so we will pass the value 0 (zero)). And from the third argument onward we have the values we would like to insert into the array (the elements 2, 3, and 4). The output will be values from -3 to 12 again.
+Finally, let's execute the following code:
+
+```js numbers.splice(5, 3, 2, 3, 4);```
+
+
+The output will be values from -3 to 12. This is because we are removing three elements, starting from the index 5, and we are also adding the elements 2, 3, and 4, starting at index 5.
+
+
+### Two dimensional and multidimensional arrays
