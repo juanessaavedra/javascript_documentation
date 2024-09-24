@@ -228,3 +228,89 @@ The output will be values from -3 to 12. This is because we are removing three e
 
 
 ### Two dimensional and multidimensional arrays
+
+At the beginning of this chapter, we used a temperature measurement example. We will now use this example one more time. Let's consider that we need to measure the temperature hourly for a few days. Now that we already know we can use an array to store the temperatures, we can easily write the following code to store the temperatures over 2 days:
+
+```js
+let averageTempDay1 = [72, 75, 79, 79, 81, 81];
+let averageTempDay2 = [81, 79, 75, 75, 73, 72];
+ ```
+
+ However, this is not the best approach; we can do better! We can use a matrix (a two-dimensional array or an array of arrays) to store this information, in which each row will represent the day, and each column will represent an hourly measurement of temperature, as follows
+
+ ```js
+   let averageTemp = [];
+   averageTemp[0] = [72, 75, 79, 79, 81, 81];
+   averageTemp[1] = [81, 79, 75, 75, 73, 73];
+ ```
+
+ #### Note:
+ JavaScript only supports one-dimensional arrays; it does not support matrices. However, we can implement matrices or any multi-dimensional array using an *array of arrays*, as in the previous code. The same code can also be written as follows:
+
+ ```js
+   // day 1
+   averageTemp[0] = [];
+   averageTemp[0][0] = 72;
+   averageTemp[0][1] = 75;
+   averageTemp[0][2] = 79;
+   averageTemp[0][3] = 79;
+   averageTemp[0][4] = 81;
+   averageTemp[0][5] = 81;
+   // day 2
+   averageTemp[1] = [];
+   averageTemp[1][0] = 81;
+   averageTemp[1][1] = 79;
+   averageTemp[1][2] = 75;
+   averageTemp[1][3] = 75;
+   averageTemp[1][4] = 73;
+   averageTemp[1][5] = 73;
+ ```
+
+#### Iterating the elements of two dimensional arrays
+If we want to verify the output of the matrix, we can create a generic function to log its output:
+
+```js
+function printMatrix(myMatrix) {
+     for (let i = 0; i < myMatrix.length; i++) {
+       for (let j = 0; j < myMatrix[i].length; j++) {
+         console.log(myMatrix[i][j]);
+} }
+}
+```
+
+We need to loop through all the rows and columns. To do this, we need to use a nested for loop, in which the variable i represents rows, and j represents the columns. In this case, each myMatrix[i] also represents an array, therefore we also need to iterate each position of myMatrix[i] in the nested for loop.
+
+We can output the contents of the averageTemp matrix using the following code:
+
+```js printMatrix(averageTemp);```
+
+
+### Array methods
+JavaScript arrays are very interesting because they are very powerful and have more capabilities available than primitive arrays in other languages. This means that we do not need to write basic capabilities ourselves, such as adding and removing elements in/from the middle of the data structure.
+
+The following is a list of the core available methods in an array object. We have covered some methods already:
+
+
+
+| Method | Description  |
+|---------------------|--------------|
+|       concat             |   Joins multiple arrays and returns a copy of the joined arrays  |
+|    every              | Iterates every element of the array, verifying the desired condition (function) until false is returned. |
+| filter                 | Creates an array with each element that evaluates to true in the function provided.  |
+| forEach                   | Executes a specific function on each element of the array. |
+| join                   | Joins all the array elements into a string. |
+| indexOf                 | Searches the array for specific elements and returns its position. |
+| lastIndexOf                | Returns the position of the last item in the array that matches the search criterion. |
+| map                 | Creates a new array from a function that contains the criterion/condition and returns the elements of the array that match the criterion. |
+| reverse                | Reverses the array so that the last item becomes the first and vice versa. |
+| slice               | Returns a new array from the specified index. |
+| some                 | Iterates every element of the array, verifying the desired condition (function) until true is returned. |
+| sort                | Sorts the array alphabetically or by the supplied function. |
+| toString               | Returns the array as a string. |
+| valueOf                | Similar to the toString method, returns the array as a string. |
+
+
+Some of these methods are very useful when we work with functional programming
+
+### Joining multiple arrays
+
